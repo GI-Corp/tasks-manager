@@ -1,0 +1,22 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block title %} Веб-приложение для мониторинга дел и задач {% endblock %}
+
+{% block branding %}
+    <h1 id="head">
+        Программа для мониторинга дел и задач
+    </h1>
+{% endblock %}
+
+
+{% block footer %}
+    <div style="text-align: center; padding-bottom: 30px;padding-top: 30px"><h4 style="color:#79aec8">
+        Разработчик приложения: <a href="https://github.com/GI-Corp" style="color: #417690;" target="_blank">Гуломкодиров Исломбек</a>
+        <h4>Почта: gicorp.work@gmail.com</h4>
+    </h4></div>
+{% endblock %}
+
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock %}
